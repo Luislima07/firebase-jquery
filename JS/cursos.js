@@ -9,7 +9,7 @@
         tbody.append(`
           <tr>
             <td>${user.nome}</td>
-            <td>${user.id}</td>
+            <td>${key}</td>
             <td>
               <button class="btn btn-warning btn-sm edit-btn" data-id="${key}">Editar</button>
               <button class="btn btn-danger btn-sm delete-btn" data-id="${key}">Excluir</button>
